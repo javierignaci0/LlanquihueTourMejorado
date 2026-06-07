@@ -27,11 +27,20 @@ public class Main {
         System.out.println(cliente1);
         System.out.println(empleado1);
         System.out.println(partner1);
-
+        System.out.println(persona1);
         System.out.println("\n");
 
+        // Cambios con set
         cliente1.setApellido("Gomez Pereira");
+        empleado1.setCargo("Guia Turistico Senior");
+        partner1.setEmpresa("Buses TJM");
+
+        System.out.println("=== Aplicando cambios ===");
+
+        // Llamada explicita
+        System.out.println(empleado1.toString());
         System.out.println(cliente1.toString());
+        System.out.println(partner1.toString());
 
     }
 }

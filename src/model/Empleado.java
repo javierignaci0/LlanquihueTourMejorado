@@ -36,5 +36,27 @@ public class Empleado extends Persona {
           return "Empleado: " + super.toString() + ", Tipo de contrato: " +  tipoContrato + ", Area: " + area + ", Cargo: " + cargo;
      }
 
+     public String getTipoContrato() {
+          return tipoContrato;
+     }
 
+     public void setTipoContrato(String tipoContrato) {
+          this.tipoContrato = tipoContrato;
+     }
+
+     public String getArea() {
+          return area;
+     }
+
+     public void setArea(String area) {
+          this.area = area;
+     }
+
+     public String getCargo() {
+          return cargo;
+     }
+
+     public void setCargo(String cargo) {
+          this.cargo = cargo;
+     }
 }

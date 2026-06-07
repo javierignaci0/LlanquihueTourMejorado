@@ -33,4 +33,19 @@ public class Cliente extends Persona {
         return "Cliente: " + super.toString() + ", ID: " +  idCliente + ", Email: " + emailCliente;
     }
 
+    public int getIdCliente() {
+        return idCliente;
+    }
+
+    public void setIdCliente(int idCliente) {
+        this.idCliente = idCliente;
+    }
+
+    public String getEmailCliente() {
+        return emailCliente;
+    }
+
+    public void setEmailCliente(String emailCliente) {
+        this.emailCliente = emailCliente;
+    }
 }
