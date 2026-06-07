@@ -1,4 +1,4 @@
-Sistema de Gestión de Personas en Java
+Sistema de Gestión de Personas para Empresa de turismo en Java
 Proyecto desarrollado en Java aplicando conceptos de Programación Orientada a Objetos, incluyendo herencia, composición, encapsulamiento, constructores, getters/setters y sobrescritura de toString()
 
 Conceptos aplicados
@@ -19,5 +19,5 @@ Ejecución
 - Verificar que la estructura de paquetes se mantenga correctamente.
 - Ejecutar la clase Main ubicada en src/app/Main.java.
 
-Autor
+
 Proyecto realizado como tarea sumativa para Desarrollo orientado a objetos.
